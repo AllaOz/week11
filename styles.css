@@ -1,0 +1,66 @@
+.container{
+    text-align: center;
+  }
+  .cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .item img {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  
+  .sneakers__price,
+  .boots__price,
+  .heels__price,
+  .ballet__price{
+     margin: 10px;
+  }
+  
+  .coupon {
+    margin: 20px 0;
+  }
+  
+  .coupon button {
+    height:50px;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .coupon button:hover {
+    background-color: #00cc44;
+  }
+  
+  .total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .total p {
+    margin: 0;
+  }
+  
+  
+  
