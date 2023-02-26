@@ -1,4 +1,4 @@
-let item1 = document.querySelector('.sneakers__price');
+let item1 = document.querySelector('.price__sneakers');
 console.log (item1)
 let item1Value = +item1.innerHTML;
 console.log(item1Value); 
@@ -18,6 +18,14 @@ console.log (item3)
 let item4Value = +item3.innerHTML;
 console.log(item4Value);
 
+let arr = [item1Value, item2Value, item3Value, item4Value];
+let result = arr.reduce(function(sum, elem) {
+	return sum + elem;
+}, 0);
+console.log(result);
+
+let resultElem = document.getElementById("result");
+resultElem.innerHTML = result;
 
 
 
