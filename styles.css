@@ -1,5 +1,7 @@
 .container{
+    align-content: center;
     text-align: center;
+    width: 35vw;
   }
   .cart {
     display: flex;
@@ -14,6 +16,7 @@
   .item {
     display: flex;
     align-items: center;
+    width: 300px;
     margin: 10px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -23,17 +26,6 @@
   .item img {
     max-width: 100px;
     margin-right: 10px;
-  }
-  
-  .sneakers__price,
-  .boots__price,
-  .heels__price,
-  .ballet__price{
-     margin: 10px;
-  }
-  
-  .coupon {
-    margin: 20px 0;
   }
   
   .coupon button {
@@ -61,6 +53,11 @@
   .total p {
     margin: 0;
   }
-  
+  .dollar{
+    margin: 10px;
+  }
+  .quantity{
+    margin: 10px;
+  }
   
   
