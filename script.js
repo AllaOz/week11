@@ -36,9 +36,15 @@ function applyDiscount(price) {
   let resultElement = document.getElementById("result");
   resultElement.innerHTML = result.toFixed(2);
   
-  let couponButton = document.querySelector('button');
-  couponButton.onclick = function() {
-	applyCoupon(20);
-  }
- item1Value.textContent = `${discountedItem1Value} ${item1Value[1]}`;
+const couponButton = document.querySelector('button');
+couponButton.addEventListener("click",() => {
+applyCoupon(20);
+item1.textContent = (item1.textContent * 0.8).toFixed(2);
+item2.textContent = (item2.textContent * 0.8).toFixed(2);
+ item3.textContent = (item3.textContent * 0.8).toFixed(2);
+ item4.textContent = (item4.textContent * 0.8).toFixed(2);},
+ 
+{once: true}
+ )
+
 
